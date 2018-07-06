@@ -125,7 +125,7 @@ entities.
     service resides, eg. "192.168.100.12:80". Each target gets an additional
     `weight` to indicate the relative load it gets. IP addresses can be
     in both IPv4 and IPv6 format.
-  - `upstream`: a 'virtual hostname' which can be used in a Route `host`
+  - `upstream`: a 'virtual hostname' which can be used in a Service `host`
     field, e.g., an upstream named `weather.v2.service` would get all requests
     from a Service with `host=weather.v2.service`.
 
