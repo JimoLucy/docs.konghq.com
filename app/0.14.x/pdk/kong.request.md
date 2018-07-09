@@ -21,7 +21,7 @@ Client request module
 * [kong.request.get_method()](#kong_request_get_method)
 * [kong.request.get_path()](#kong_request_get_path)
 * [kong.request.get_raw_query()](#kong_request_get_raw_query)
-* [kong.request.set_query_arg()](#kong_request_set_query_arg)
+* [kong.request.get_query_arg()](#kong_request_get_query_arg)
 * [kong.request.get_query([max_args])](#kong_request_get_query)
 * [kong.request.get_header(name)](#kong_request_get_header)
 * [kong.request.get_headers([max_headers])](#kong_request_get_headers)
