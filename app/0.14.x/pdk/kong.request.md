@@ -316,7 +316,7 @@ kong.request.get_raw_query() -- "msg=hello%20world&bla=&bar"
 [Back to TOC](#table-of-contents)
 
 
-### <a name="kong_request_set_query_arg"></a>kong.request.set_query_arg()
+### <a name="kong_request_set_query_arg"></a>kong.request.get_query_arg()
 
 Returns the value of the specified argument, obtained from the query
  arguments of the current request.
